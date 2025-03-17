@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from 'next/navigation';
-import { stations_list } from "@/lib/stations_list";
+import { stations_list } from "@/lib/stations";
 
 
 export default async function Station( {params}: {params: Promise<{station_id: number}>}) {
@@ -14,15 +14,15 @@ export default async function Station( {params}: {params: Promise<{station_id: n
     return (
       <>
         <h3>{station.title} [{station.station_id}]</h3>
-        <h4>Status: {station.status}</h4>
+        <h4>Статус: {station.status}</h4>
         <p>{station.description}</p>
 
         <div className="w-max">
             <hr/>
-            <p>Temperature: {station.current_temp}</p>
-            <p>Humidity: {station.current_humidity}</p>
-            <p>Pressure: {station.current_pressure}</p>
-            <p>Measurement Time: {station.measurement_time}</p>
+            <p>Статус: {station.current_temp}</p>
+            <p>Влажность: {station.current_humidity}</p>
+            <p>Давление: {station.current_pressure}</p>
+            <p>Время измерения: {station.measurement_time}</p>
             <hr/>
         </div>
         <Link href='/stations'>Вернуться к списку станций</Link>
