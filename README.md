@@ -1,6 +1,11 @@
 # Сервис PauPau Weather
 [![Build and Deploy](https://github.com/Hierugu/weather-app/actions/workflows/build_deploy_on_master_push_workflow.yaml/badge.svg)](https://github.com/Hierugu/weather-app/actions/workflows/build_deploy_on_master_push_workflow.yaml)
 
+Данный проект использует фреймворки:
+- React + Next.js
+- Tailwind CSS (стили)
+- Tremor (графики)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
