@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.actor }}/paupauweather:latest
+  IMAGE_NAME: hierugu/paupauweather:latest
 
 jobs:
     publish:
