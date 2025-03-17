@@ -9,7 +9,7 @@ export default function Stations() {
         <ul>
             {
                 stations_list.map(station => {
-                    return <li key={station.station_id}><Link href={`/stations/${station.station_id}`}>{station.title}</Link></li>
+                    return <li key={station.station_id}><Link href={`/stations/${station.station_id}`}>- {station.title} [{station.station_id}]</Link></li>
                 }
 )
             }

@@ -13,7 +13,7 @@ export default async function Station( {params}: {params: Promise<{station_id: n
     }
     return (
       <>
-        <h3>{station.title} ({station.station_id})</h3>
+        <h3>{station.title} [{station.station_id}]</h3>
         <h4>Status: {station.status}</h4>
         <p>{station.description}</p>
 
