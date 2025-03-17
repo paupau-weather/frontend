@@ -1,7 +1,7 @@
 export default function Footer() {
     return (
             <footer>
-                <p>© Kursk State University, 2025, Alexander Klevanov, PauPau Weather App</p>
+                <p>© КГУ, 2025, Клеванов Александр, PauPau Weather</p>
             </footer>
     )
 }

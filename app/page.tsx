@@ -1,9 +1,9 @@
 export default function Home() {
   return (
     <>
-      <h1>PauPau Weather app, version 0.0.2</h1>
-      <p>Welcome to the PauPau Weather app! Stay updated with the latest weather conditions in your area.</p>
-      <p>Our app provides accurate and up-to-date weather forecasts to help you plan your day better.</p>
+      <h1>Сервис PauPau Weather, версия 0.0.2</h1>
+      <p>Добро пожаловать в PauPau Weather! Будьте в курсе последних погодных условий благодаря нашим мобильным метеостанциям.</p>
+      <p>Точные и актуальные прогнозы погоды помогут вам лучше спланировать свой день.</p>
     </>
   );
 }
