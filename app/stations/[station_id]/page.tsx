@@ -19,9 +19,10 @@ export default async function Station( {params}: {params: Promise<{station_id: n
 
         <div className="w-max">
             <hr/>
-            <p>Статус: {station.current_temp}</p>
-            <p>Влажность: {station.current_humidity}</p>
-            <p>Давление: {station.current_pressure}</p>
+            <p>Температура: +{station.current_temp} °C</p>
+            <p>Влажность: {station.current_humidity} %</p>
+            <p>Давление: {station.current_pressure} кПа</p>
+            <p>Уровень CO2: {station.current_co2}</p>
             <p>Время измерения: {station.measurement_time}</p>
             <hr/>
         </div>
