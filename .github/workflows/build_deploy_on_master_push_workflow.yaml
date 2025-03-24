@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: hierugu/paupauweather:latest
+  IMAGE_NAME: paupau-weather/frontend:latest
 
 jobs:
     publish:
