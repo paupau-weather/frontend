@@ -1,5 +1,5 @@
 # Сервис PauPau Weather
-[![Build and Deploy](https://github.com/Hierugu/weather-app/actions/workflows/build_deploy_on_master_push_workflow.yaml/badge.svg)](https://github.com/Hierugu/weather-app/actions/workflows/build_deploy_on_master_push_workflow.yaml)
+[![Build and Deploy](https://github.com/paupau-weather/frontend/actions/workflows/build_deploy_on_master_push_workflow.yaml/badge.svg)](https://github.com/paupau-weather/frontend/actions/workflows/build_deploy_on_master_push_workflow.yaml)
 
 Данный проект использует фреймворки:
 - [React](https://react.dev/) + [Next.js](https://nextjs.org)
