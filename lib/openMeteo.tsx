@@ -19,6 +19,7 @@ export async function requestCurrentWeather(){
     const response = responses[0];
 
     // Attributes for timezone and location
+    // const utcOffsetSeconds = response.utcOffsetSeconds();
     // const timezone = response.timezone();
     // const timezoneAbbreviation = response.timezoneAbbreviation();
     // const latitude = response.latitude();
@@ -28,7 +29,7 @@ export async function requestCurrentWeather(){
 
     // Note: The order of weather variables in the URL query and the indices below need to match!
     const weatherData = {
-        time: new Date((Number(current.time())) * 1000),
+        time: new Date(((Number(current.time()))) * 1000),
         temperature2m: parseFloat(current.variables(0)!.value().toFixed(1)),
         relativeHumidity2m: parseFloat(current.variables(1)!.value().toFixed(1)),
         surfacePressure: parseFloat(current.variables(2)!.value().toFixed(1)),
