@@ -1,4 +1,4 @@
-import { getStations } from "@/utils/backend/database";
+import { getStations } from "@/utils/database";
 import Stations from "@/ui/components/Stations";
 import { Suspense } from "react";
 import StationsSuspense from "@/ui/suspenses/StationsSuspense";
