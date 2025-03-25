@@ -2,6 +2,7 @@ import { fetchWeatherApi } from 'openmeteo';
 
 
 export async function requestCurrentWeather(){
+    // await new Promise(f => setTimeout(f, 1000));
     const params = {
         "latitude": 55.7522,
         "longitude": 37.6156,

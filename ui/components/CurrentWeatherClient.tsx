@@ -1,5 +1,5 @@
 'use client'
-import { requestCurrentWeather } from "@/lib/openMeteo"
+import { requestCurrentWeather } from "@/utils/openMeteo"
 import { useEffect, useState } from "react"
 
 export default function CurrentWeather() {
@@ -22,7 +22,7 @@ export default function CurrentWeather() {
             <p>Текущая температура: {currentWeather.temperature2m} °C</p>
             <p>Текущая влажность: {currentWeather.relativeHumidity2m}%</p>
             <p>Текущее давление: {currentWeather.surfacePressure} кПа</p>
-            <p>Время измерения: {currentWeather.time.toTimeString()}</p>
+            <p>Время измерения: {currentWeather.time.toLocaleString()}</p>
         </div>
     )
 }
