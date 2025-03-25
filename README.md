@@ -1,45 +1,30 @@
 # Сервис PauPau Weather
-[![Build and Deploy](https://github.com/Hierugu/weather-app/actions/workflows/build_deploy_on_master_push_workflow.yaml/badge.svg)](https://github.com/Hierugu/weather-app/actions/workflows/build_deploy_on_master_push_workflow.yaml)
+[![Build and Deploy](https://github.com/paupau-weather/frontend/actions/workflows/build_deploy_on_master_push_workflow.yaml/badge.svg)](https://github.com/paupau-weather/frontend/actions/workflows/build_deploy_on_master_push_workflow.yaml)
 
 Данный проект использует фреймворки:
-- React + Next.js
-- Tailwind CSS (стили)
-- Tremor (графики)
-- OpenMeteo API
+- [React](https://react.dev/) + [Next.js](https://nextjs.org)
+- [Auth.js](https://authjs.dev/) (авторизация)
+- [Tailwind CSS](https://tailwindcss.com/) (стили)
+- [Tremor](https://tremor.so/) (графики)
+- [OpenMeteo API](https://open-meteo.com/) (данные)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Развертывание
 
-## Getting Started
-
-First, run the development server:
+Запуск локального сервера в режима разработки по адресу [localhost:3000](http://localhost:3000):
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Развертывание в продакшн производится автоматически при появлении изменений в ветке `master` на сервере.
+Важно, что перед отправкой необходимо запустить линтер, так как новая версия не будет развернута, если она не пройдет проверки.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run lint
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Документация (TODO: убрать тк ссылки даны в первом разделе)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Документация Next.js:
+- [Документацияя Next.js](https://nextjs.org/docs)
+- [Интерактивный курс Next.js](https://nextjs.org/learn)
