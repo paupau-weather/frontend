@@ -5,7 +5,7 @@
 - [React](https://react.dev/) + [Next.js](https://nextjs.org)
 - [Auth.js](https://authjs.dev/) (авторизация)
 - [Tailwind CSS](https://tailwindcss.com/) (стили)
-- [Tremor](https://tremor.so/) (графики)
+- [RadixUI](https://www.radix-ui.com/) (компоненты) + [Tremor](https://tremor.so/) (графики)
 - [OpenMeteo API](https://open-meteo.com/) (данные)
 
 ## Развертывание
