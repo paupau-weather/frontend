@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { stations_list } from "@/lib/stations";
 
 
-export default async function Station( {params}: {params: Promise<{station_id: number}>}) {
+export default async function StationPage( {params}: {params: Promise<{station_id: number}>}) {
     let {station_id} = await params;
     station_id = Number(station_id)
     const station = stations_list.find(station => station.station_id === station_id)
